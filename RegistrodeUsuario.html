@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>RegistrodeUsuario</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="registro.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">¡Crea una Nueva Cuenta!</div>
+    <div class="content">
+      <form action="#">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Nombre(s)</span>
+            <input type="text" placeholder="Ingresa tu nombre" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Apellidos</span>
+            <input type="text" placeholder="Ingresa tus apellidos" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Correo Electrónico</span>
+            <input type="text" placeholder="Ingresa tu correo electrónico" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Numero de Teléfono</span>
+            <input type="text" placeholder="Ingresa tu número de teléfono" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Contraseña</span>
+            <input type="password" placeholder="Ingresa tu contraseña" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirmar Contraseña</span>
+            <input type="password" placeholder="Confirma tu contraseña" required>
+          </div>
+        </div>
+        <div class="gender-details">
+          <input type="radio" name="gender" id="dot-1">
+          <input type="radio" name="gender" id="dot-2">
+          <span class="gender-title">Tipo de Cuenta</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="gender">Vecino</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Administrador</span>
+          </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Registrarse">
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
